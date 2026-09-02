@@ -1,0 +1,158 @@
+/* Reset and Base Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+/* Header & Navbar */
+.header {
+  background-color: #d97724;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.header h1 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 0.9rem;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  text-decoration: underline;
+}
+
+/* Main Container Layout */
+.main-container {
+  display: flex;
+  flex: 1;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  width: 220px;
+  background-color: #e6a15c;
+  padding: 20px 10px;
+}
+
+.sidebar h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  display: block;
+  background-color: #d18d45;
+  color: #222;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
+.sidebar ul li a:hover {
+  background-color: #b87531;
+  color: white;
+}
+
+/* Main Content Area */
+.content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d3d3d3;
+}
+
+/* Login Card Box */
+.login-box {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 380px;
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 1.3rem;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  font-size: 16px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-box button:hover {
+  background-color: #e69500;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #d97724;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.85rem;
+}
+
